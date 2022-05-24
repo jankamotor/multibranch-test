@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Ejecutar Python Script') {
             steps {
-                sh 'hola_mundo.py'
+                sh 'python hola_mundo.py'
             }
         }
     }
